@@ -8,7 +8,7 @@ public class NetworkingClient {
         Socket client = null;
 
         // Default port number we are going to use
-        int portNumber = 1235;
+        int portNumber = 1234;
         if (args.length >= 1) {
             portNumber = Integer.parseInt(args[0]);
         }
